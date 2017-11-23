@@ -1,0 +1,45 @@
+<form method="post" action="/students">
+
+  <div class="field-group">
+    <label for="first-name-field" class="label">First Name:</label>
+    <div class="field">
+      <input
+      type="text"
+      name="first_name"
+      id="first-name-field"
+      placeholder="First name"
+      required
+      />
+    </div>
+  </div>
+
+  <div class="field-group">
+    <label for="surname-field" class="label">Surname:</label>
+    <div class="field">
+      <input
+      type="text"
+      name="surname"
+      id="surname-field"
+      placeholder="Surname"
+      required
+      />
+    </div>
+  </div>
+
+  <div class="field-group">
+      <label>Select a house:</label>
+      <div class="field">
+        <select name="house" id="house-selection">
+          <option value="Ravenclaw">Ravenclaw</option>
+          <option value="Gryffindor">Gryffindor</option>
+          <option value="Hufflepuff">Hufflepuff</option>
+          <option value="Slytherin">Slytherin</option>
+        </select>
+      </div>
+    </div>
+
+
+
+
+  <button class="big-button button">Create student</button>
+</form>

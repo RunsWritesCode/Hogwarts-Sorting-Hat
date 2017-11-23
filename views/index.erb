@@ -1,0 +1,6 @@
+<% @students.each do |student| %>
+  <div class="student-list">
+    <p>Name: <%= student.pretty_name() %></p>
+    <p>House: <%= student.house_id %></p>
+  </div>
+<% end %>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hogwarts Sorting Hat!</title>
+<!--   <link rel="stylesheet" href="/css/foundation.css"> -->
+<link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+  <style>
+  
+  </style>
+  <link rel="stylesheet" href="/hogwarts.css">
+</head>
+<body>
+<nav class="nav">
+  <ul>
+    <li>
+      <a href="/students">Students</a>
+    </li>
+    <li>
+      <a href="/students/new">Sort students</a>
+    </li>
+  </ul>
+</nav>
+    <section class="introduction">
+      <div>
+        <h1>Welcome to Hogwarts</h1>
+      </div>
+      <img src="https://images.pottermore.com/bxd3o8b291gf/2phT56DSucuUqU6Icm6mCe/b1fd2811691e41ffd1622a07eb528604/HogwartsCastle_WB_F4_HogwartsThroughTheTrees_Illust_100615_Land.jpg?w=1200"/>
+    </section>
+    <section>
+      <div>
+        <%= yield %>
+      </div>
+    </section>
+    <footer>
+      <div>
+          &copy; Hogwarts School of Witchcraft and Wizardry
+      </div>
+    </footer>
+</body>
+</html>

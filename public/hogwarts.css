@@ -1,0 +1,8 @@
+.nav {
+  background: linear-gradient(to left, black, indigo, blue, white);
+}
+
+body {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+}
